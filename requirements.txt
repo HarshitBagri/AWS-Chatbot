@@ -1,0 +1,29 @@
+
+# Core Flask dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+
+# AWS SDK
+boto3==1.26.137
+botocore==1.29.137
+
+# Image processing
+Pillow==10.0.1
+
+# JSON handling (built-in with Python 3.6+)
+# datetime (built-in)
+# logging (built-in)
+# re (built-in)
+# os (built-in)
+# base64 (built-in)
+# io (built-in)
+
+# Development dependencies (optional)
+pytest==7.4.2
+pytest-flask==1.2.0
+python-dotenv==1.0.0
+
+# For production deployment
+gunicorn==21.2.0
+python-multipart==0.0.6
